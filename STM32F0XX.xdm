@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="origin" fetch="https://github.com/Auto-Autosar-MCAL-4-0/"/> 
+  <default revision="master" remote="origin" sync-j="4"/>
+  <project name="base" origin="auto_mcal_ng" path="SASW/JSW_MCAL/XPC56xx/dev/drivers/AutoSAR/base"/>
+  <project name="dem" origin="auto_mcal_ng" path="SASW/JSW_MCAL/XPC56xx/dev/drivers/AutoSAR/dem"/>
+  <project name="det" origin="auto_mcal_ng" path="SASW/JSW_MCAL/XPC56xx/dev/drivers/AutoSAR/det"/>
+  <project name="rte" origin="auto_mcal_ng" path="SASW/JSW_MCAL/XPC56xx/dev/drivers/AutoSAR/rte"/>
+  <project name="resource" origin="auto_mcal_ng" path="SASW/JSW_MCAL/XPC56xx/dev/drivers/AutoSAR/resource"/>
+  <project name="dio" origin="auto_mcal_ng" path="SASW/JSW_MCAL/XPC56xx/dev/drivers/AutoSAR/dio"/>
+  <project name="port" origin="auto_mcal_ng" path="SASW/JSW_MCAL/XPC56xx/dev/drivers/AutoSAR/port"/>
+  <project name="build_env" origin="auto_mcal_ng" path="SASW/JSW_MCAL/XPC56xx/dev/drivers/test/test"/>
+  <project name="eunit" origin="auto_mcal_ng" path="SASW/JSW_MCAL/XPC56xx/dev/drivers/test/eunit"/>
+</manifest>
