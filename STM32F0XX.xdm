@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="origin" fetch="https://github.com/Auto-Autosar-MCAL-4-0/"/> 
-  <default revision="master" remote="origin" sync-j="4"/>
-  <project name="base" origin="auto_mcal_ng" path="SASW/JSW_MCAL/XPC56xx/dev/drivers/AutoSAR/base"/>
-  <project name="dem" origin="auto_mcal_ng" path="SASW/JSW_MCAL/XPC56xx/dev/drivers/AutoSAR/dem"/>
-  <project name="det" origin="auto_mcal_ng" path="SASW/JSW_MCAL/XPC56xx/dev/drivers/AutoSAR/det"/>
-  <project name="rte" origin="auto_mcal_ng" path="SASW/JSW_MCAL/XPC56xx/dev/drivers/AutoSAR/rte"/>
-  <project name="resource" origin="auto_mcal_ng" path="SASW/JSW_MCAL/XPC56xx/dev/drivers/AutoSAR/resource"/>
-  <project name="dio" origin="auto_mcal_ng" path="SASW/JSW_MCAL/XPC56xx/dev/drivers/AutoSAR/dio"/>
-  <project name="port" origin="auto_mcal_ng" path="SASW/JSW_MCAL/XPC56xx/dev/drivers/AutoSAR/port"/>
-  <project name="build_env" origin="auto_mcal_ng" path="SASW/JSW_MCAL/XPC56xx/dev/drivers/test/test"/>
-  <project name="eunit" origin="auto_mcal_ng" path="SASW/JSW_MCAL/XPC56xx/dev/drivers/test/eunit"/>
+  <default revision="develop" remote="origin" sync-j="4"/>
+  <project name="base" remote="origin" revision="refs/tags/BLN_BASE_STM32F0XX_4_0_EAR_001_V00" path="SASW/JSW_MCAL/XPC56xx/dev/drivers/AutoSAR/base"/>
+  <project name="det" remote="origin" revision="refs/tags/BLN_DET_STM32F0XX_4_0_EAR_001_V00" path="SASW/JSW_MCAL/XPC56xx/dev/drivers/AutoSAR/det"/>
+  <project name="resource" remote="origin" revision="refs/tags/BLN_RESOURCE_STM32F0XX_4_0_EAR_001_V00" path="SASW/JSW_MCAL/XPC56xx/dev/drivers/AutoSAR/resource"/>
+  <project name="dio" remote="origin" revision="refs/tags/BLN_DIO_STM32F0XX_4_0_EAR_001_V00" path="SASW/JSW_MCAL/XPC56xx/dev/drivers/AutoSAR/dio"/>
+  <project name="port" remote="origin" revision="refs/tags/BLN_PORT_STM32F0XX_4_0_EAR_001_V00" path="SASW/JSW_MCAL/XPC56xx/dev/drivers/AutoSAR/port"/>
 </manifest>
+<?xml version="1.0" encoding="UTF-8"?>
